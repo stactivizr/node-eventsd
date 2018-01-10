@@ -1,0 +1,1 @@
+eventsd = require('../lib/eventsd');

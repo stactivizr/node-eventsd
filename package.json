@@ -1,0 +1,32 @@
+{
+  "name": "node-eventsd",
+  "version": "1.0.0",
+  "description": "node.js client for interfacing with the Eventsd deamon",
+  "main": "./lib/eventsd.js",
+  "directories": {
+    "test": "./test/",
+    "lib": "./lib/"
+  },
+  "engines": {
+    "node": ">=0.1.97"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stactivizr/node-eventsd.git"
+  },
+  "author": "John Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stactivizr/node-eventsd/issues"
+  },
+  "homepage": "https://github.com/stactivizr/node-eventsd#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.1.0",
+    "should": "^13.2.0"
+  }
+}
